@@ -16,7 +16,7 @@ def sort_files(source_folder):
             directories = parts[:-1]
             
             # Создать путь до новой директории
-            new_directory_path = os.path.join(source_folder, *directories)
+            new_directory_path = os.path.join(sorted_folder, *directories)
             new_file_path = os.path.join(new_directory_path, file_name)
             
             # Создать директорию, если её нет
