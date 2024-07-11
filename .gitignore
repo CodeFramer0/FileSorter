@@ -1,3 +1,10 @@
+# Ignore all files in the sorting folder
+/sorting/*
 
-/sorting
+# But not the sorting folder itself
+!/sorting/
+
+# Allow specific directories within the sorting folder (if any)
+!/sorting/.gitkeep
+
 /sorted
